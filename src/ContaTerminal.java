@@ -7,7 +7,7 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
     
         System.out.println("Digite o Número da Agência");
-        double Numero = scanner.nextDouble();
+        int Numero = scanner.nextInt();
     
         System.out.println("Digite sua Agência");
         String Agencia = scanner.next();
